@@ -1,6 +1,6 @@
 # Cryostat
 
-Look inside each file for more detailed explanations of how each program works. This readme says what to use them for
+Look inside each file for more detailed explanations of how each program works. This readme says what to use them for.
 
 CryostatTest1 is an outdated graphing program for graphing blackbody radiation curves at various temperatures from 300K to 0.1 K.
 
@@ -17,3 +17,5 @@ ColdFilters shows radiation curves used on the coldest stages.
 Analysis for all 3 sets of filters is inside the documents.
 
 Heat Loads Model is an Excel file showing how much heat will transfer between layers of the cryostat using formulas found online and some basic approximations. The calculated heat transfer is calculated by integrating across the entire spectrum of wavelengths. For finding heat transfer for a specific wavelength range, use the CryostatIntegration program and set the ranges as needed.
+
+Most of the programs are currently in notebook form. I intend to put everything onto a single Python file that combines all of these functions and allows for easier user experience by simply inputting key variables like temperature, wavelength range, and types of filters used.
