@@ -22,6 +22,6 @@ Most of the programs are currently in notebook form. I intend to put everything 
 
 Update 8/27: New Files Heat Load Calculator, 8 Channel Record, and Temp Record have been added. 
 
-Heat Load Calculator is the automated version of all aforementioned programs. Intended to be used in a way so that future cryostats are easier to model. Look inside for all functionsa
+Heat Load Calculator is the automated version of all aforementioned programs. Intended to be used in a way so that future cryostats are easier to model. Look inside for all functions.
 
 Temp Record takes the readings from the Lakeshore Model 218 and outputs them to a text file. Reading the text file using KST and the settings of 8 Channel Record will display all of the data in graph form.
