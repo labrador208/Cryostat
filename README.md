@@ -18,4 +18,10 @@ Analysis for all 3 sets of filters is inside the documents.
 
 Heat Loads Model is an Excel file showing how much heat will transfer between layers of the cryostat using formulas found online and some basic approximations. The calculated heat transfer is calculated by integrating across the entire spectrum of wavelengths. For finding heat transfer for a specific wavelength range, use the CryostatIntegration program and set the ranges as needed.
 
-Most of the programs are currently in notebook form. I intend to put everything onto a single Python file that combines all of these functions and allows for easier user experience by simply inputting key variables like temperature, wavelength range, and types of filters used.
+Most of the programs are currently in notebook form. I intend to put everything onto a single Python file that combines all of these functions and allows for easier use by simply inputting key variables like temperature, wavelength range, and types of filters used.
+
+Update 8/27: New Files Heat Load Calculator, 8 Channel Record, and Temp Record have been added. 
+
+Heat Load Calculator is the automated version of all aforementioned programs. Intended to be used in a way so that future cryostats are easier to model. Look inside for all functionsa
+
+Temp Record takes the readings from the Lakeshore Model 218 and outputs them to a text file. Reading the text file using KST and the settings of 8 Channel Record will display all of the data in graph form.
