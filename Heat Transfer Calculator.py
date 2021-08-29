@@ -445,7 +445,7 @@ def integrate():
     i=0
     count=0
 
-    while i<1000000:
+    while i<100000000:
         x=random.uniform(lower, upper)
         yCoord=random.uniform(0,yTop)
         if yCoord<=eval(formula):
@@ -463,15 +463,15 @@ def integrate():
     plt.plot(xCoordOut,yCoordOut,'.', color='blue')
     plt.show()
     
-input=int(input("Hi! What would you like to do? 1 for calculate the heat load of a cryostat, 2 for plot a function, 3 for integrate a function, 4 for compare a black body curve to a filtered curve "))
+question=int(input("Hi! What would you like to do? 1 for calculate the heat load of a cryostat, 2 for plot a function, 3 for integrate a function, 4 for compare a black body curve to a filtered curve "))
 
-if input==1:
+if question==1:
     calcHeatLoads()
-if input==2: 
+if question==2: 
     plot()
-if input==3:
+if question==3:
     integrate()
-if input==4:
+if question==4:
     t=int(input("What is the temperature you want to graph the curve at?: "))
     filter(t)
 #plot()
